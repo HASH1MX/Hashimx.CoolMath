@@ -13,6 +13,10 @@ namespace MyCalculator
             Calculator Cal1 = new Calculator();
             double resultCal1 = Cal.Subtraction(10, 10);
 
+            TrigonometricCalculator TCal = new TrigonometricCalculator();
+            double resultTCal = TCal.Sine(114);
+            Console.WriteLine(resultTCal);
+
         }
     }
 
