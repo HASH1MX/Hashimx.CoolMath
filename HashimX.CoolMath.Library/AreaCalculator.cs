@@ -7,7 +7,7 @@ public class AreaCalculator
     public double CircleCircumference(double r)
     {
         ConstantProvider CP = new ConstantProvider();
-        double resultPi = CP.Pi();
+         double resultPi = CP.Pi;
 
         double resultC = 2 * resultPi * r;
         return resultC;
@@ -16,7 +16,7 @@ public class AreaCalculator
     public double CircleArea(double r)
     {
         ConstantProvider CP = new ConstantProvider();
-        double resultPi = CP.Pi();
+        double resultPi = CP.Pi;
 
         ScientificCalculator SC = new ScientificCalculator();
         double resultSqr = SC.Square(r);

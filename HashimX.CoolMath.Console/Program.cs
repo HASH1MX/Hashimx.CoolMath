@@ -23,7 +23,7 @@ namespace MyCalculator
             Console.WriteLine(resultSCal);
 
             ConstantProvider CP = new ConstantProvider();
-            double resultCP = CP.Pi();
+            double resultCP = CP.Pi;
             Console.WriteLine(resultCP);
 
             AreaCalculator AC = new AreaCalculator();
