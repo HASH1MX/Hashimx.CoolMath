@@ -1,4 +1,4 @@
-using HashimX.CoolMath.library;
+namespace HashimX.CoolMath.library;
 
 /// <summary>
 /// Trigonometric Calculator

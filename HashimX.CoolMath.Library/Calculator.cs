@@ -22,5 +22,6 @@
             double div = a / b;
             return div;
         }
+        
     }
 

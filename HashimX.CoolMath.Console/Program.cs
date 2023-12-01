@@ -1,4 +1,5 @@
-﻿using HashimX.CoolMath.library;
+﻿using System.Formats.Asn1;
+using HashimX.CoolMath.library;
 
 namespace MyCalculator
 {
@@ -16,6 +17,22 @@ namespace MyCalculator
             TrigonometricCalculator TCal = new TrigonometricCalculator();
             double resultTCal = TCal.Sine(114);
             Console.WriteLine(resultTCal);
+
+            ScientificCalculator SCal = new ScientificCalculator();
+            double resultSCal = SCal.Cube(3);
+            Console.WriteLine(resultSCal);
+
+            ConstantProvider CP = new ConstantProvider();
+            double resultCP = CP.Pi();
+            Console.WriteLine(resultCP);
+
+            AreaCalculator AC = new AreaCalculator();
+            double resultCC = AC.CircleCircumference(12);
+            Console.WriteLine(resultCC);
+
+            double resultAC = AC.CircleArea(20);
+            Console.WriteLine(resultAC);
+
 
         }
     }

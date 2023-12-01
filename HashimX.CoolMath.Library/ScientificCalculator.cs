@@ -1,5 +1,8 @@
-using HashimX.CoolMath.library;
+namespace HashimX.CoolMath.library;
 
+/// <summary>
+/// A Scientific Calculator
+/// </summary>
 public class ScientificCalculator
 {
     /// <summary>
@@ -9,9 +12,17 @@ public class ScientificCalculator
     /// <returns></returns>
     public double Square(double a)
     {
-        return a * a;
+        Calculator cal = new Calculator();
+        double resultcal = cal.Multiplication(a, a);
+        return resultcal;
     }
-    
+    public double Cube(double a)
+    {
+        double resultSqr = this.Square(a);
+        Calculator cal = new Calculator();
+        double resultCal = cal.Multiplication(resultSqr, a);
+        return resultCal;
+    }
     /// <summary>
     /// SquareRoot Function
     /// </summary>
