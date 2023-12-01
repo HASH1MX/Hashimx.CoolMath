@@ -1,8 +1,8 @@
-﻿using HashimX.CoolMath;
+﻿using HashimX.CoolMath.library;
 
 namespace MyCalculator
 {
-    public static class Test
+    public static class ConsoleTestCalculator
     {
         public static void Main()
         {

@@ -1,5 +1,5 @@
-namespace HashimX.CoolMath
-{
+﻿namespace HashimX.CoolMath.library;
+
     public class Calculator
     {
         public double Addition(double a, double b)
@@ -23,12 +23,4 @@ namespace HashimX.CoolMath
             return div;
         }
     }
-    //public class ScientificCalculator
-   // {
 
-   // }
-//public class TrignometricCalcultor
-//{
-
-//}
-}

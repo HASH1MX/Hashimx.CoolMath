@@ -7,8 +7,13 @@ C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Con
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.AssemblyInfoInputs.cache
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.AssemblyInfo.cs
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.csproj.CoreCompileInputs.cache
+C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.sourcelink.json
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.dll
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\refint\HashimX.CoolMath.Console.dll
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.pdb
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.genruntimeconfig.cache
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\ref\HashimX.CoolMath.Console.dll
+C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\bin\Debug\net8.0\HashimX.CoolMath.Library.dll
+C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\bin\Debug\net8.0\HashimX.CoolMath.Library.pdb
+C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.csproj.AssemblyReference.cache
+C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Console\obj\Debug\net8.0\HashimX.CoolMath.Console.csproj.CopyComplete

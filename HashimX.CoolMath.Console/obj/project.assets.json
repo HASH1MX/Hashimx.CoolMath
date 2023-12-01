@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "HashimX.CoolMath.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HashimX.CoolMath.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HashimX.CoolMath.Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HashimX.CoolMath.Library/1.0.0": {
+      "type": "project",
+      "path": "../HashimX.CoolMath.Library/HashimX.CoolMath.Library.csproj",
+      "msbuildProject": "../HashimX.CoolMath.Library/HashimX.CoolMath.Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "HashimX.CoolMath.Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Aprizon\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj": {
+              "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
