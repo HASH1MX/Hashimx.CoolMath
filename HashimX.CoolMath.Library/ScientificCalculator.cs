@@ -32,4 +32,15 @@ public class ScientificCalculator
     {
         return Math.Sqrt(a);
     }
+
+    public double Log(double a)
+    {
+        double resultLog = Math.Log(a);
+        return resultLog;
+    }
+    public double AntiLog(double a)
+    {
+        double resultAntiLog = Math.Log10(a);
+        return resultAntiLog;
+    }
 }
