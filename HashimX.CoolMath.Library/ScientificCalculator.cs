@@ -43,4 +43,19 @@ public class ScientificCalculator
         double resultAntiLog = Math.Log10(a);
         return resultAntiLog;
     }
+    public double QuadraticPositive(double a, double b, double c)
+    {
+        double bsqr = this.Square(b);
+        double x = ((-1 * b) + Math.Sqrt(bsqr - (4 * a * c))) / (2 * a);
+
+        return x;
+    }
+    public double QuadraticNegative(double a, double b, double c)
+    {
+
+        double bsqr = this.Square(b);
+        double negativeX = ((-1 * b) - Math.Sqrt(bsqr - (4 * a * c))) / (2 * a);
+
+        return negativeX;
+    }
 }

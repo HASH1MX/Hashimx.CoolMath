@@ -39,6 +39,12 @@ namespace MyCalculator
             double resultSCal4 = SCal.AntiLog(55);
             Console.WriteLine("Anti-Logarithm: " + resultSCal4);
 
+            double resultSCal5 = SCal.QuadraticPositive(3, -5, 2);
+            Console.WriteLine("Quadratic Positive: " + resultSCal5);
+
+            double resultSCal6 = SCal.QuadraticNegative(3, -5, 2);
+            Console.WriteLine("Quadratice Negative: " + resultSCal6);
+
 
             TrigonometricCalculator TCal = new TrigonometricCalculator();
             double resultTCal = TCal.Sine(114);
@@ -54,10 +60,10 @@ namespace MyCalculator
             Console.WriteLine("Cosec: " + resultTCal3);
 
             double resultTCal4 = TCal.SecCos(100);
-            Console.WriteLine(resultTCal4);
+            Console.WriteLine("SecCos: " + resultTCal4);
 
             double resultTCal5 = TCal.Cot(100, 122);
-            Console.WriteLine(resultTCal5);
+            Console.WriteLine("Cot: " + resultTCal5);
 
             ConstantProvider CP = new ConstantProvider();
             double resultCP = CP.Pi;
@@ -69,6 +75,7 @@ namespace MyCalculator
 
             double resultAC = AC.CircleArea(20);
             Console.WriteLine("Area: " + resultAC);
+
         }
     }
 
