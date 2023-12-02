@@ -50,6 +50,15 @@ namespace MyCalculator
             double resultTCal2 = TCal.Cosine(120);
             Console.WriteLine("Cosine: " + resultTCal2);
 
+            double resultTCal3 = TCal.CoSec(100);
+            Console.WriteLine("Cosec: " + resultTCal3);
+
+            double resultTCal4 = TCal.SecCos(100);
+            Console.WriteLine(resultTCal4);
+
+            double resultTCal5 = TCal.Cot(100, 122);
+            Console.WriteLine(resultTCal5);
+
             ConstantProvider CP = new ConstantProvider();
             double resultCP = CP.Pi;
             Console.WriteLine("Pi: " + resultCP);

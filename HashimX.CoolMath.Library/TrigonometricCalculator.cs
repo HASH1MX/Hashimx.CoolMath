@@ -14,13 +14,24 @@ public class TrigonometricCalculator
     {
         return Math.Sin(t);
     }
-    public double Tangent(double Sin, double Cosin)
+    public double Tangent(double a, double b)
     {
-        double tan = Sin / Cosin;
-        return tan;
+        return Math.Sin(a) / Math.Cos(b);
     }
     public double Cosine(double a)
     {
         return Math.Cos(a);
+    }
+    public double CoSec(double a)
+    {
+        return 1 / Math.Sin(a);
+    }
+    public double Cot(double a, double b)
+    {
+        return Math.Cos(a) / Math.Sin(b);
+    }
+    public double SecCos(double a)
+    {
+        return 1 / Math.Cos(a);
     }
 }
