@@ -9,31 +9,57 @@ namespace MyCalculator
         {
             Calculator Cal = new Calculator();
             double resultCal = Cal.Addition(10, 10);
-            Console.WriteLine(resultCal);
+            Console.WriteLine("Addition: " + resultCal);
 
-            Calculator Cal1 = new Calculator();
-            double resultCal1 = Cal.Subtraction(10, 10);
+            double resultCal1 = Cal.Subtraction(100, 60);
+            Console.WriteLine("Subtraction: " + resultCal1);
 
-            TrigonometricCalculator TCal = new TrigonometricCalculator();
-            double resultTCal = TCal.Sine(114);
-            Console.WriteLine(resultTCal);
+            double resultCal2 = Cal.Multiplication(10, 20);
+            Console.WriteLine("Multiplication: " + resultCal2);
+
+            double resultCal3 = Cal.Division(1230, 2);
+            Console.WriteLine("Division: " + resultCal3);
+
+            double resultCal4 = Cal.Remainder(100, 20);
+            Console.WriteLine("Remainder:" + resultCal4);
 
             ScientificCalculator SCal = new ScientificCalculator();
             double resultSCal = SCal.Cube(3);
-            Console.WriteLine(resultSCal);
+            Console.WriteLine("Cube: " + resultSCal);
+
+            double resultSCal1 = SCal.Square(10);
+            Console.WriteLine("Square:" + resultSCal1);
+
+            double resultSCal2 = SCal.SquareRoot(120);
+            Console.WriteLine("SquareRoot: " + resultSCal2);
+
+            double resultSCal3 = SCal.Log(12);
+            Console.WriteLine("Logarithm: " + resultSCal3);
+
+            double resultSCal4 = SCal.AntiLog(55);
+            Console.WriteLine("Anti-Logarithm: " + resultSCal4);
+
+
+            TrigonometricCalculator TCal = new TrigonometricCalculator();
+            double resultTCal = TCal.Sine(114);
+            Console.WriteLine("Sine: " + resultTCal);
+
+            double resultTCal1 = TCal.Tangent(120, 130);
+            Console.WriteLine("Tangent: " + resultTCal1);
+
+            double resultTCal2 = TCal.Cosine(120);
+            Console.WriteLine("Cosine: " + resultTCal2);
 
             ConstantProvider CP = new ConstantProvider();
             double resultCP = CP.Pi;
-            Console.WriteLine(resultCP);
+            Console.WriteLine("Pi: " + resultCP);
 
             AreaCalculator AC = new AreaCalculator();
             double resultCC = AC.CircleCircumference(12);
-            Console.WriteLine(resultCC);
+            Console.WriteLine("Circle Circumference: " + resultCC);
 
             double resultAC = AC.CircleArea(20);
-            Console.WriteLine(resultAC);
-
-
+            Console.WriteLine("Area: " + resultAC);
         }
     }
 
