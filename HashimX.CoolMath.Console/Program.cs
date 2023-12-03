@@ -66,15 +66,43 @@ namespace MyCalculator
             Console.WriteLine("Cot: " + resultTCal5);
 
             ConstantProvider CP = new ConstantProvider();
+            
             double resultCP = CP.Pi;
             Console.WriteLine("Pi: " + resultCP);
 
             AreaCalculator AC = new AreaCalculator();
+
             double resultCC = AC.CircleCircumference(12);
             Console.WriteLine("Circle Circumference: " + resultCC);
 
             double resultAC = AC.CircleArea(20);
             Console.WriteLine("Area: " + resultAC);
+
+
+            TemperatureConverter TC = new TemperatureConverter();
+
+            double resultCF = TC.ConvertCelsiusToFahrenheit(120);
+            Console.WriteLine("Celsius to Fahrenheit: " + resultCF);
+
+            double resultCK = TC.ConvertCelsiusToKelvin(100);
+            Console.WriteLine("Celsius to Kelvin: " + resultCK);
+
+            double resultFC = TC.ConvertFahrenheitToCelsius(70);
+            Console.WriteLine("Fahrenheit to Celsius: " + resultFC);
+
+            double resultFK = TC.ConvertFahrenheitToKelvin(20);
+            Console.WriteLine("Fahrenheit to Kelvin: " + resultFK);
+
+            double resultKC = TC.ConvertKelvinToCelsius(50);
+            Console.WriteLine("Kelvin to Celsius: " + resultKC);
+
+            double resultKF = TC.ConvertKelvinToFahrenheit(80);
+            Console.WriteLine("Kelvin to Fahrenheit: " + resultKF);
+
+
+
+
+
 
         }
     }
