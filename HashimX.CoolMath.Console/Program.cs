@@ -66,7 +66,7 @@ namespace MyCalculator
             Console.WriteLine("Cot: " + resultTCal5);
 
             ConstantProvider CP = new ConstantProvider();
-            
+
             double resultCP = CP.Pi;
             Console.WriteLine("Pi: " + resultCP);
 
@@ -98,6 +98,12 @@ namespace MyCalculator
 
             double resultKF = TC.ConvertKelvinToFahrenheit(80);
             Console.WriteLine("Kelvin to Fahrenheit: " + resultKF);
+
+            EquationCalculator ECal = new EquationCalculator();
+
+            double resultHypo = ECal.PythagoreanTheorem(65, 130);
+            Console.WriteLine("Pythagorean Theorem: " + resultHypo);
+
 
 
 
