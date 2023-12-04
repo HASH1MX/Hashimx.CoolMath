@@ -104,6 +104,12 @@ namespace MyCalculator
             double resultHypo = ECal.PythagoreanTheorem(65, 130);
             Console.WriteLine("Pythagorean Theorem: " + resultHypo);
 
+            double resultMEE = ECal.MassEnergyEquivalence(1);
+            Console.WriteLine("Mass Energy Equivalence: " + resultMEE);
+
+            double resultLOUG = ECal.LawOfUniversalGravitation(100, 150, 200);
+            Console.WriteLine("Force by using Law of Universal Gravitation: " + resultLOUG);
+
             UnitConverter UCal = new UnitConverter();
 
             double resultKtM = UCal.KilometreToMeter(100);
