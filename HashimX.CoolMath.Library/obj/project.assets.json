@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.library\\HashimX.CoolMath.library.csproj",
-      "projectName": "HashimX.CoolMath.library",
-      "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.library\\HashimX.CoolMath.library.csproj",
+      "projectUniqueName": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj",
+      "projectName": "HashimX.CoolMath.Library",
+      "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj",
       "packagesPath": "C:\\Users\\Aprizon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.library\\obj\\",
+      "outputPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aprizon\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -46,7 +46,13 @@ public class ScientificCalculator
     public double QuadraticPositive(double a, double b, double c)
     {
         double bsqr = this.Square(b);
-        double x = ((-1 * b) + Math.Sqrt(bsqr - (4 * a * c))) / (2 * a);
+        double fourAC = 4 * a * c;
+        double topRight = Math.Sqrt(bsqr - fourAC);
+        double topLeft  = -1 * b;
+        double bottom = 2*a;
+        double top = topLeft - topRight;
+
+        double x = top / bottom;
 
         return x;
     }

@@ -104,6 +104,26 @@ namespace MyCalculator
             double resultHypo = ECal.PythagoreanTheorem(65, 130);
             Console.WriteLine("Pythagorean Theorem: " + resultHypo);
 
+            UnitConverter UCal = new UnitConverter();
+
+            double resultKtM = UCal.KilometreToMeter(100);
+            Console.WriteLine("Kilometre to Meter: " + resultKtM);
+
+            double resultMtC = UCal.MeterToCentimeter(120);
+            Console.WriteLine("Meter to Centimetre: " + resultMtC);
+
+            double resultCTK = UCal.CentimeterToKilometre(50);
+            Console.WriteLine("Centimetre to Kilometre: " + resultCTK);
+
+            double resultSKTSM = UCal.SquareKilometerToSquareMile(40);
+            Console.WriteLine("Square Kilometre to Square Mile: " + resultSKTSM);
+
+            double resultKTT = UCal.KilogramToTonne(60);
+            Console.WriteLine("Kilometre to Tonne: " + resultKTT);
+
+
+
+
 
 
 
