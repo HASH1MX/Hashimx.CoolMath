@@ -10,3 +10,15 @@ C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Lib
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\refint\HashimX.CoolMath.Library.dll
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.pdb
 C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\ref\HashimX.CoolMath.Library.dll
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\bin\Debug\net8.0\HashimX.CoolMath.Library.deps.json
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\bin\Debug\net8.0\HashimX.CoolMath.Library.dll
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\bin\Debug\net8.0\HashimX.CoolMath.Library.pdb
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.AssemblyInfoInputs.cache
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.AssemblyInfo.cs
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.csproj.CoreCompileInputs.cache
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.sourcelink.json
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.dll
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\refint\HashimX.CoolMath.Library.dll
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\HashimX.CoolMath.Library.pdb
+C:\Users\Work\source\repos\Hashimx.CoolMath\HashimX.CoolMath.Library\obj\Debug\net8.0\ref\HashimX.CoolMath.Library.dll

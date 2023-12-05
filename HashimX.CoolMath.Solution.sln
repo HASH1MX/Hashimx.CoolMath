@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashimX.CoolMath.Console", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashimX.CoolMath.Library", "HashimX.CoolMath.Library\HashimX.CoolMath.Library.csproj", "{B0BFF25C-902C-4DB4-9010-DC6227A530D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashimX.CoolMath.Library.Tests", "HashimX.CoolMath.Library.Tests\HashimX.CoolMath.Library.Tests.csproj", "{BB120AF2-07C4-4125-81FA-648500AA9858}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B0BFF25C-902C-4DB4-9010-DC6227A530D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0BFF25C-902C-4DB4-9010-DC6227A530D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0BFF25C-902C-4DB4-9010-DC6227A530D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB120AF2-07C4-4125-81FA-648500AA9858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB120AF2-07C4-4125-81FA-648500AA9858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB120AF2-07C4-4125-81FA-648500AA9858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB120AF2-07C4-4125-81FA-648500AA9858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aprizon\\.nuget\\packages\\": {}
+    "C:\\Users\\Work\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
+      "projectUniqueName": "C:\\Users\\Work\\source\\repos\\Hashimx.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
       "projectName": "HashimX.CoolMath.Console",
-      "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
-      "packagesPath": "C:\\Users\\Aprizon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\obj\\",
+      "projectPath": "C:\\Users\\Work\\source\\repos\\Hashimx.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
+      "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Work\\source\\repos\\Hashimx.CoolMath\\HashimX.CoolMath.Console\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aprizon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj": {
-              "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj"
+            "C:\\Users\\Work\\source\\repos\\Hashimx.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj": {
+              "projectPath": "C:\\Users\\Work\\source\\repos\\Hashimx.CoolMath\\HashimX.CoolMath.Library\\HashimX.CoolMath.Library.csproj"
             }
           }
         }
