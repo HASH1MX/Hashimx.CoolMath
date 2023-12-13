@@ -1,5 +1,6 @@
 ﻿using System.Formats.Asn1;
 using HashimX.CoolMath.library;
+using HashimX.CoolMath.library.UserDefinedTypes;
 
 namespace MyCalculator
 {
@@ -20,7 +21,7 @@ namespace MyCalculator
             double resultCal3 = Cal.Division(1230, 2);
             Console.WriteLine("Division: " + resultCal3);
 
-            double resultCal4 = Cal.Remainder(100, 20);
+            double resultCal4 = Cal.Remainder(31, 10);
             Console.WriteLine("Remainder:" + resultCal4);
 
             ScientificCalculator SCal = new ScientificCalculator();
@@ -33,10 +34,10 @@ namespace MyCalculator
             double resultSCal2 = SCal.SquareRoot(120);
             Console.WriteLine("SquareRoot: " + resultSCal2);
 
-            double resultSCal3 = SCal.Log(12);
+            double resultSCal3 = SCal.Log(10);
             Console.WriteLine("Logarithm: " + resultSCal3);
 
-            double resultSCal4 = SCal.AntiLog(55);
+            double resultSCal4 = SCal.AntiLog(0);
             Console.WriteLine("Anti-Logarithm: " + resultSCal4);
 
             double resultSCal5 = SCal.QuadraticPositive(3, -5, 2);
@@ -72,7 +73,7 @@ namespace MyCalculator
 
             AreaCalculator AC = new AreaCalculator();
 
-            double resultCC = AC.CircleCircumference(12);
+            double resultCC = AC.CircleCircumference(22);
             Console.WriteLine("Circle Circumference: " + resultCC);
 
             double resultAC = AC.CircleArea(20);
@@ -127,12 +128,26 @@ namespace MyCalculator
             double resultKTT = UCal.KilogramToTonne(60);
             Console.WriteLine("Kilometre to Tonne: " + resultKTT);
 
+            Set objS1 = new Set();
+            objS1.Insert(1);
+            objS1.Insert(2);
+            objS1.Insert(3);
+
+            Set objS2 = new Set();
+            objS2.Insert(3);
+            objS2.Insert(4);
+            objS2.Insert(5);
+
+            Set resultSet = new Set();
+
+
+            SetCalculator setCal = new SetCalculator();
+            resultSet = setCal.Union(objS1, objS2);
 
 
 
-
-
-
+            string intresult = resultSet.ToString();
+            Console.WriteLine(intresult);
 
 
 
