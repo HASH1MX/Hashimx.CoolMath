@@ -1,4 +1,5 @@
 
+using System.Security.Cryptography.X509Certificates;
 using HashimX.CoolMath.library.UserDefinedTypes;
 
 namespace HashimX.CoolMath.library;
@@ -20,5 +21,35 @@ public class SetCalculator
             }
         }
         return result;
+    }
+    public Set Intersection(Set S1, Set S2)
+    {
+        Set result2 = new Set();
+        result2.Name = "Intersection Result Set";
+        int elemCount = S1.Elements.Count;
+        for (int i = 0; i < elemCount; i++)
+        {
+            int a = S1.Elements[i];
+            bool boolResult = S2.Elements.Contains(a);
+            if (boolResult == true)
+            {
+                result2.Insert(a);
+            }
+        }
+        int elemCount2 = S2.Elements.Count;
+        for (int j = 0; j < elemCount2; j++)
+        {
+            int b = S2.Elements[j];
+            bool boolResult2 = S1.Elements.Contains(b);
+            if (boolResult2 == true)
+            {
+                bool boolResult3 = result2.Elements.Contains(b);
+                if (boolResult3 == false)
+                {
+                    result2.Insert(b);
+                }
+            }
+        }
+        return result2;
     }
 }

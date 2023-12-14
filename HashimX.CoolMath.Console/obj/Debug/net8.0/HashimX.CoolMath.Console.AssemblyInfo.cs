@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HashimX.CoolMath.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3cfad38c118a58eff4c10a196b64a40bc93267d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d457e3250f656689ae4edcf7351522b153270281")]
 [assembly: System.Reflection.AssemblyProductAttribute("HashimX.CoolMath.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HashimX.CoolMath.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

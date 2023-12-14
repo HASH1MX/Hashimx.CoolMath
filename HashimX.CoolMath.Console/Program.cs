@@ -129,7 +129,6 @@ namespace MyCalculator
             Console.WriteLine("Kilometre to Tonne: " + resultKTT);
 
             Set objS1 = new Set();
-            objS1.Insert(1);
             objS1.Insert(2);
             objS1.Insert(3);
             objS1.Insert(4);
@@ -150,6 +149,11 @@ namespace MyCalculator
             Console.WriteLine(resultSet.ToString());
             // resultSet.Remove(6);
             //Console.WriteLine(resultSet.ToString());
+            SetCalculator setCal2 = new SetCalculator();
+            resultSet = setCal2.Intersection(objS1, objS2);
+
+
+            Console.WriteLine(resultSet.ToString());
 
 
 
