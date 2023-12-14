@@ -132,6 +132,8 @@ namespace MyCalculator
             objS1.Insert(1);
             objS1.Insert(2);
             objS1.Insert(3);
+            objS1.Insert(4);
+
 
             Set objS2 = new Set();
             objS2.Insert(3);
@@ -145,9 +147,9 @@ namespace MyCalculator
             resultSet = setCal.Union(objS1, objS2);
 
 
-
-            string intresult = resultSet.ToString();
-            Console.WriteLine(intresult);
+            Console.WriteLine(resultSet.ToString());
+            // resultSet.Remove(6);
+            //Console.WriteLine(resultSet.ToString());
 
 
 
