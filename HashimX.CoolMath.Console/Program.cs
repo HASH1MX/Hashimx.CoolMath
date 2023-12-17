@@ -129,31 +129,54 @@ namespace MyCalculator
             Console.WriteLine("Kilometre to Tonne: " + resultKTT);
 
             Set objS1 = new Set();
+            objS1.Insert(1);
             objS1.Insert(2);
             objS1.Insert(3);
             objS1.Insert(4);
-
+            objS1.Insert(5);
+            objS1.Insert(6);
 
             Set objS2 = new Set();
-            objS2.Insert(3);
             objS2.Insert(4);
             objS2.Insert(5);
+            objS2.Insert(6);
+            objS2.Insert(7);
+            objS2.Insert(8);
+            objS2.Insert(9);
+
+            Set objS3 = new Set();
+            objS3.Insert(1);
+            objS3.Insert(2);
+            objS3.Insert(3);
+            objS3.Insert(4);
+            objS3.Insert(5);
+            objS3.Insert(6);
+
+            Set objS4 = new Set();
+            objS4.Insert(4);
+            objS4.Insert(5);
+            objS4.Insert(6);
+            objS4.Insert(7);
+            objS4.Insert(8);
+            objS4.Insert(9);
+
 
             Set resultSet = new Set();
 
 
-            SetCalculator setCal = new SetCalculator();
-            resultSet = setCal.Union(objS1, objS2);
-
-
-            Console.WriteLine(resultSet.ToString());
-            // resultSet.Remove(6);
-            //Console.WriteLine(resultSet.ToString());
             SetCalculator setCal2 = new SetCalculator();
-            resultSet = setCal2.Intersection(objS1, objS2);
-
-
+            resultSet = setCal2.Union(objS3, objS4);
             Console.WriteLine(resultSet.ToString());
+
+
+
+            resultSet = setCal2.Intersection(objS1, objS2);
+            Console.WriteLine("Intersection:" + resultSet.ToString());
+
+            resultSet = setCal2.Difference(objS1, objS2);
+            Console.WriteLine("Difference :" + resultSet.ToString());
+
+
 
 
 

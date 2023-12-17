@@ -36,20 +36,37 @@ public class SetCalculator
                 result2.Insert(a);
             }
         }
-        int elemCount2 = S2.Elements.Count;
-        for (int j = 0; j < elemCount2; j++)
+        // int elemCount2 = S2.Elements.Count;
+        // for (int j = 0; j < elemCount2; j++)
+        // {
+        //     int b = S2.Elements[j];
+        //     bool boolResult2 = S1.Elements.Contains(b);
+        //     if (boolResult2 == true)
+        //     {
+        //         bool boolResult3 = result2.Elements.Contains(b);
+        //         if (boolResult3 == false)
+        //         {
+        //             result2.Insert(b);
+        //         }
+        //     }
+        // }
+        return result2;
+    }
+    public Set Difference(Set S1, Set S2)
+    {
+        Set result3 = new Set();
+        result3.Name = "Difference Result Set";
+        result3 = S1;
+        int elemCount = S2.Elements.Count;
+        for (int i = 0; i < elemCount; i++)
         {
-            int b = S2.Elements[j];
-            bool boolResult2 = S1.Elements.Contains(b);
-            if (boolResult2 == true)
+            int x = S2.Elements[i];
+            bool boolResult = result3.Elements.Contains(x);
+            if (boolResult == true)
             {
-                bool boolResult3 = result2.Elements.Contains(b);
-                if (boolResult3 == false)
-                {
-                    result2.Insert(b);
-                }
+                result3.Remove(x);
             }
         }
-        return result2;
+        return result3;
     }
 }
