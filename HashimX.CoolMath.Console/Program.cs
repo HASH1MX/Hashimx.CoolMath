@@ -135,8 +135,13 @@ namespace MyCalculator
             objS1.Insert(4);
             objS1.Insert(5);
             objS1.Insert(6);
+            objS1.Insert(6);
+
 
             Set objS2 = new Set();
+            objS2.Insert(1);
+            objS2.Insert(2);
+            objS2.Insert(3);
             objS2.Insert(4);
             objS2.Insert(5);
             objS2.Insert(6);
@@ -176,7 +181,8 @@ namespace MyCalculator
             resultSet = setCal2.Difference(objS1, objS2);
             Console.WriteLine("Difference :" + resultSet.ToString());
 
-
+            bool boolResult = setCal2.IsSubSets(objS1, objS2);
+            Console.WriteLine("IsSubSet :" + boolResult);
 
 
 

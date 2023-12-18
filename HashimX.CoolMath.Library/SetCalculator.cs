@@ -1,6 +1,8 @@
 
 using System.Security.Cryptography.X509Certificates;
 using HashimX.CoolMath.library.UserDefinedTypes;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace HashimX.CoolMath.library;
 public class SetCalculator
@@ -68,5 +70,21 @@ public class SetCalculator
             }
         }
         return result3;
+    }
+    public bool IsSubSets(Set S1, Set S2)
+    {
+        bool result = true;
+        // S1 is subet of S2
+        // it means. All elements of S1 must be inside S2
+        int S1_Count = S1.Elements.Count();
+        for(int i=0; i < S1_Count; i++)
+        {
+            int elem = S1.Elements[i];
+            bool isContained = S2.Elements.Contains(elem);
+            if(isContained == false){
+                result = false;
+            }
+        }
+        return result;
     }
 }
