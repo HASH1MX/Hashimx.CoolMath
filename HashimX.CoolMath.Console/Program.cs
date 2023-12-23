@@ -184,6 +184,16 @@ namespace MyCalculator
             bool boolResult = setCal2.IsSubSets(objS1, objS2);
             Console.WriteLine("IsSubSet :" + boolResult);
 
+            AgeCalculator ageCal = new AgeCalculator();
+            double Age = ageCal.AgeCalculate(1983);
+            Console.WriteLine("Age :" + Age);
+
+            DateTime birthDateTime = new DateTime(2007, 9, 16);
+
+            double DOB = ageCal.AgeCalculateWithDOB(birthDateTime);
+
+            Console.WriteLine("Date of Birth: " + DOB);
+
 
 
         }
