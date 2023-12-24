@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HashimX.CoolMath.Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c729bbf62d553121a899471c4104a5efbc552fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a917eb77f97afd444c2c3fcc3d6a5d4221f3c8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HashimX.CoolMath.Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HashimX.CoolMath.Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

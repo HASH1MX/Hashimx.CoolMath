@@ -194,6 +194,18 @@ namespace MyCalculator
 
             Console.WriteLine("Date of Birth: " + DOB);
 
+            BaseSystemConverter BCresult = new BaseSystemConverter();
+
+            string Binary = BCresult.DecimalToBinary(200);
+            Console.WriteLine("Binary :" + Binary);
+
+            int Decimal = BCresult.BinaryyToDecimal(Binary);
+            Console.WriteLine("Decimal :" + Decimal);
+
+            double DecimalM = BCresult.BinaryyToDecimal2Method("1100001001");
+            Console.WriteLine("Decimal :" + DecimalM);
+
+
 
 
         }
