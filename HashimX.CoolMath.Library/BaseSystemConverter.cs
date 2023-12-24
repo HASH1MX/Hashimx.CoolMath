@@ -19,7 +19,7 @@ public class BaseSystemConverter
     }
     public double BinaryyToDecimal2Method(string Binary)
     {
-        //11001000 100101100
+        //11001000 100101100 1100001001
         int power = Binary.Length - 1;
         double totalResult = 0;
         int myBase = 2;
@@ -30,12 +30,22 @@ public class BaseSystemConverter
             power = power - 1;
 
             totalResult = totalResult + currentItem * powerResult;
-            Console.WriteLine(currentItem + " " + powerResult + " " + totalResult);
-            Console.ReadKey();
+            //Console.WriteLine(currentItem + " " + powerResult + " " + totalResult);
+            //Console.ReadKey();
         }
 
         return totalResult;
     }
+    public string DecimalToHexadecimal(int decimalNumber)
+    {
+
+        string hexadecimalNumber = decimalNumber.ToString("X");
+
+        return hexadecimalNumber;
+
+
+    }
+    
 
 
 

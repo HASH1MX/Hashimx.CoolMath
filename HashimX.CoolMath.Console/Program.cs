@@ -203,7 +203,10 @@ namespace MyCalculator
             Console.WriteLine("Decimal :" + Decimal);
 
             double DecimalM = BCresult.BinaryyToDecimal2Method("1100001001");
-            Console.WriteLine("Decimal :" + DecimalM);
+            Console.WriteLine("2nd Method Decimal :" + DecimalM);
+
+            string HexDecimal = BCresult.DecimalToHexadecimal(255);
+            Console.WriteLine("Hexadecimal :" + HexDecimal);
 
 
 
