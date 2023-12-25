@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("HashimX.CoolMath.Library")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c86cf625eb752901ee63f5d178f5e322d5b87b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HashimX.CoolMath.Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HashimX.CoolMath.Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

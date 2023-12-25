@@ -83,6 +83,7 @@ public class SetCalculator
             bool isContained = S2.Elements.Contains(elem);
             if(isContained == false){
                 result = false;
+                break;
             }
         }
         return result;

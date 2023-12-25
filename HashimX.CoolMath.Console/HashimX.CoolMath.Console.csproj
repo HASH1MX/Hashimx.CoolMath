@@ -9,6 +9,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>8Work.CoolMathLibrary.26.12.23</PackageId>
+    <PackageTags>Scientific;Advance;Constant;Trigonometric;Unit Converters;Set;Base System Converters</PackageTags>
+    <Version>1.0.1</Version>
+    <Authors>HashimX</Authors>
+    <Company>8Work</Company>   
   </PropertyGroup>
 
 </Project>

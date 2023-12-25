@@ -50,7 +50,7 @@ public class ScientificCalculator
         double topRight = Math.Sqrt(bsqr - fourAC);
         double topLeft  = -1 * b;
         double bottom = 2*a;
-        double top = topLeft - topRight;
+        double top = topLeft +  topRight;
 
         double x = top / bottom;
 

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HashimX.CoolMath.Library</id>
+    <version>1.0.0</version>
+    <authors>HashimX.CoolMath.Library</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5c86cf625eb752901ee63f5d178f5e322d5b87b0" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Aprizon\Documents\Coding\Practice\HashimX.CoolMath\HashimX.CoolMath.Library\bin\Release\net8.0\HashimX.CoolMath.Library.dll" target="lib\net8.0\HashimX.CoolMath.Library.dll" />
+  </files>
+</package>
