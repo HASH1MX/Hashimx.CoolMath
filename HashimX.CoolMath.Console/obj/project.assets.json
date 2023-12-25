@@ -30,10 +30,10 @@
     "C:\\Users\\Aprizon\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
-      "projectName": "HashimX.CoolMath.Console",
+      "projectName": "8Work.CoolMathLibrary.26.12.23",
       "projectPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\HashimX.CoolMath.Console.csproj",
       "packagesPath": "C:\\Users\\Aprizon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Aprizon\\Documents\\Coding\\Practice\\HashimX.CoolMath\\HashimX.CoolMath.Console\\obj\\",

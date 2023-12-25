@@ -1,5 +1,6 @@
 ﻿using System.Formats.Asn1;
 using HashimX.CoolMath.library;
+using HashimX.CoolMath.library.UserDefinedTypes;
 
 namespace MyCalculator
 {
@@ -20,7 +21,7 @@ namespace MyCalculator
             double resultCal3 = Cal.Division(1230, 2);
             Console.WriteLine("Division: " + resultCal3);
 
-            double resultCal4 = Cal.Remainder(100, 20);
+            double resultCal4 = Cal.Remainder(31, 10);
             Console.WriteLine("Remainder:" + resultCal4);
 
             ScientificCalculator SCal = new ScientificCalculator();
@@ -33,10 +34,10 @@ namespace MyCalculator
             double resultSCal2 = SCal.SquareRoot(120);
             Console.WriteLine("SquareRoot: " + resultSCal2);
 
-            double resultSCal3 = SCal.Log(12);
+            double resultSCal3 = SCal.Log(10);
             Console.WriteLine("Logarithm: " + resultSCal3);
 
-            double resultSCal4 = SCal.AntiLog(55);
+            double resultSCal4 = SCal.AntiLog(0);
             Console.WriteLine("Anti-Logarithm: " + resultSCal4);
 
             double resultSCal5 = SCal.QuadraticPositive(3, -5, 2);
@@ -72,7 +73,7 @@ namespace MyCalculator
 
             AreaCalculator AC = new AreaCalculator();
 
-            double resultCC = AC.CircleCircumference(12);
+            double resultCC = AC.CircleCircumference(22);
             Console.WriteLine("Circle Circumference: " + resultCC);
 
             double resultAC = AC.CircleArea(20);
@@ -127,11 +128,85 @@ namespace MyCalculator
             double resultKTT = UCal.KilogramToTonne(60);
             Console.WriteLine("Kilometre to Tonne: " + resultKTT);
 
+            Set objS1 = new Set();
+            objS1.Insert(1);
+            objS1.Insert(2);
+            objS1.Insert(3);
+            objS1.Insert(4);
+            objS1.Insert(5);
+            objS1.Insert(6);
+            objS1.Insert(6);
+
+
+            Set objS2 = new Set();
+            objS2.Insert(1);
+            objS2.Insert(2);
+            objS2.Insert(3);
+            objS2.Insert(4);
+            objS2.Insert(5);
+            objS2.Insert(6);
+            objS2.Insert(7);
+            objS2.Insert(8);
+            objS2.Insert(9);
+
+            Set objS3 = new Set();
+            objS3.Insert(1);
+            objS3.Insert(2);
+            objS3.Insert(3);
+            objS3.Insert(4);
+            objS3.Insert(5);
+            objS3.Insert(6);
+
+            Set objS4 = new Set();
+            objS4.Insert(4);
+            objS4.Insert(5);
+            objS4.Insert(6);
+            objS4.Insert(7);
+            objS4.Insert(8);
+            objS4.Insert(9);
+
+
+            Set resultSet = new Set();
+
+
+            SetCalculator setCal2 = new SetCalculator();
+            resultSet = setCal2.Union(objS3, objS4);
+            Console.WriteLine(resultSet.ToString());
 
 
 
+            resultSet = setCal2.Intersection(objS1, objS2);
+            Console.WriteLine("Intersection:" + resultSet.ToString());
 
+            resultSet = setCal2.Difference(objS1, objS2);
+            Console.WriteLine("Difference :" + resultSet.ToString());
 
+            bool boolResult = setCal2.IsSubSets(objS1, objS2);
+            Console.WriteLine("IsSubSet :" + boolResult);
+
+            AgeCalculator ageCal = new AgeCalculator();
+            double Age = ageCal.AgeCalculate(1983);
+            Console.WriteLine("Age :" + Age);
+
+            DateTime birthDateTime = new DateTime(2007, 9, 16);
+
+            double DOB = ageCal.AgeCalculateWithDOB(birthDateTime);
+
+            Console.WriteLine("Date of Birth: " + DOB);
+
+            BaseSystemConverter BCresult = new BaseSystemConverter();
+
+            string Binary = BCresult.DecimalToBinary(200);
+            Console.WriteLine("Binary :" + Binary);
+
+            int Decimal = BCresult.BinaryyToDecimal(Binary);
+            Console.WriteLine("Decimal :" + Decimal);
+
+            double DecimalM = BCresult.BinaryyToDecimal2Method("1100001001");
+            Console.WriteLine("2nd Method Decimal :" + DecimalM);
+
+            string HexDecimal = BCresult.DecimalToHexadecimal(255);
+            Console.WriteLine("Hexadecimal :" + HexDecimal);
 
 
 
